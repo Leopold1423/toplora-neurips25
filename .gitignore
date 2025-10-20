@@ -1,0 +1,13 @@
+*log*/
+wandb
+dataset
+*.json
+*.bin
+*.pyc
+*.out
+*.log
+*.csv
+
+NousResearch/
+Qwen/
+google/
