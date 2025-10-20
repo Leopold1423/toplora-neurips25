@@ -25,7 +25,7 @@ lora_config:
   use_toplora: true
   toplora_path: ''
   
-model: "NousResearch/Meta-Llama-3-8B"
+model: "Qwen/Qwen2.5-3B"
 data_path: "dataset/math_10k.json"
 output_dir: "./log/toplora"
 seed: 42

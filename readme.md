@@ -1,6 +1,6 @@
 # TopLoRA
 
-Beyond Higher Rank: Token-wise Input-Output Projections for Efficient Low-Rank Adaptation [NeurIPS25]
+Beyond Higher Rank: Token-wise Input-Output Projections for Efficient Low-Rank Adaptation [NeurIPS 2025]
 
 ## Environment Setup
 Please execute the following command to install the necessary dependencies:
@@ -9,13 +9,13 @@ pip install -r requirements.txt
 ```
 
 ## Dataset 
-Please download the datasets (math_10k.json and commonsense_170k.json) from [LLM_Adapters](https://github.com/AGI-Edgerunners/LLM-Adapters), place them in the dataset directory, and then copy this directory to the current project.
+Please download the datasets from [LLM_Adapters](https://github.com/AGI-Edgerunners/LLM-Adapters), place them in the dataset directory, and then copy this directory to the current project.
 ```
 git clone https://github.com/AGI-Edgerunners/LLM-Adapters
 cp LLM-Adapters/ft-training_set/math_10k.json LLM-Adapters/dataset
 cp LLM-Adapters/ft-training_set/commonsense_170k.json LLM-Adapters/dataset
 cp -r LLM-Adapters/dataset ./
-rm -r LLM-Adapters
+rm -rf LLM-Adapters
 ```
 
 ## Run the Experiment

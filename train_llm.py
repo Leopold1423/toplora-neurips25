@@ -60,7 +60,6 @@ if __name__ == "__main__":
     rate = get_trainable_params_numbers(model, path=os.path.join(config.output_dir, "num_params.json"))
     logger.info(rate)
 
-
     ## print trainable names
     logger.info("### Trainable Parameters:")
     for name, parameter in model.named_parameters():

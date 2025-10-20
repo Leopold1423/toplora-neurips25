@@ -23,7 +23,7 @@ lora_config:
   target_modules: "qkv"
   dtype: "bf16"
   
-model: "NousResearch/Meta-Llama-3-8B"
+model: "Qwen/Qwen2.5-3B"
 data_path: "dataset/math_10k.json"
 output_dir: "./log/lora"
 seed: 42
